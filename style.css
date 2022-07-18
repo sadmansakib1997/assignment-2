@@ -1,12 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+
+
 /* top */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+.title {
+    color: #562eff;
+    font-size: 24px;
+}
+
 .player {
     display: flex;
     align-items: center;
+}
+
+.name {
+    margin-left: 16px;
 }
 
 .player img {
